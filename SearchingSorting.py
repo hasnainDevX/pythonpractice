@@ -16,5 +16,4 @@ print(Search(array, 5))
 vowels = ["a", "u", "o", "i", "e"]
 vowels.sort()
 print(vowels)
-
 print(sorted(vowels, reverse=True))
