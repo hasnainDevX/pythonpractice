@@ -1,7 +1,9 @@
-from mymodule import greet
+from mymodule import greet, sum_numbers
 
 print(greet("Alice"))
+print(sum_numbers(5, 3))
 # Output: Hello, Alice!
+# Output: 8
 
 import math as m
 print(m.sqrt(16))

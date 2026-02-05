@@ -38,8 +38,6 @@ except ValueError:
 except ZeroDivisionError:
     print("Error: Cannot divide by zero.")
 
-
-
 try:
     number = int(input("Enter a number: "))
     result = 10 / number
@@ -58,3 +56,13 @@ else:
     print(f"Result is: {result}")
 finally:
     print("Execution completed.")
+
+try:
+    number = int(input("Enter number: "))
+    result = 10 / number
+except(ValueError, ZeroDivisionError):
+    print("Vlaue must be greater than zero and integer")
+else:
+    print(result)
+finally:
+    print("Program complete")
